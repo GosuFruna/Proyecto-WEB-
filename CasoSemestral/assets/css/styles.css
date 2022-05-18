@@ -1,4 +1,10 @@
 .d-block{
     height: 100%;
 }
+
 .navbar-brand{padding-left: 300px;}
+
+.card{
+    margin: 30px;
+}
+
