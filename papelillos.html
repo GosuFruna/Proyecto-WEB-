@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPELILLOS</title>
+
+    <!--ARCHIVO CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--ICON REMIX -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- LINK GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">     
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="enc-container">
+
+        <!-- ENCABEZADO -->
+        <header class="mensaje-top container-fluid d-flex justify-content-center">
+            <p class="text-light mb-0 p-2 fs-3"> Consultas y Cómo Comprar: +569 2548 9654 - Post Venta y Despachos: +569 3125 7764</p>
+        </header>
+    
+        <!-- LOGO -->
+        <div class="logo container-fluid">
+            <div class="container-fluid">
+                <div class="contenedor">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo blanco.png" alt="" width="150" height="150" class="justify-content-center">
+                    </a>
+                </div>
+                <div class="contenedor">
+                    <a class="nav-title" href="index.html">
+                    <p class="tex">El Weon De Los Tabacos</p>
+                    </a>
+                </div>
+            </div>
+        </div>   
+
+    </div>
+    
+    <!-- NAV -->
+    <div class="nave container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabacos.html">Tabacos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cigarros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="papelillos.html">Papelillos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="boquillas.html">Filtros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accesorios.html">Accesorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="suscripcion.html">Suscripción</a>
+                    </li>
+                </ul>
+                <div class="icono">
+                    <a href="#" class="fas fa fa-shopping-cart" id="cart-btn"></a>
+                    <a href="#" class="fas fa fa-user" id="user-btn"></a>  
+                    <a href="#" class="fas fa fa-search" id="search-btn"></a>   
+                </div>
+            </div>
+        </nav>    
+    </div>
+    
+    <!--SLIDER-->
+
+    <section class="home-slider" id="home-slider">
+        <div class="contenido-slider">
+            <h3>Abonos</h3>
+            <p>Los mejores abonos para criar tus plantas</p>
+      
+        </div>
+
+        <div class="controles">
+            <span class="vid-btn active" data-src="assets/images/banner_papelillos-3.webp"></span>
+            <span class="vid-btn" data-src="assets/images/slider_ar4.jpg"></span>
+            <span class="vid-btn" data-src="assets/images/slider_ar6.jpg"></span>
+        </div>
+
+        <div class="image-container">
+            <img src="assets/images/abono2.jpg" id="imagen-slider" alt="">
+        </div>
+
+    </section>
+
+
+<!--------------------------ICONO DE USER-------------------------->
+<div class="user-icon">
+    <section>
+        <div id="cerrar"><span>cerrar</span></div>
+        <!--<div id="cerrar"><span><a class="fas fa fa-close"></a></span></div>-->
+        <h3 class="titulo">Iniciar Sesion</h3>
+        <div class="row">      
+            </div class="col-md-6 offset-md-6">
+                <div class="flex">     
+                    <form action="" class="mt-5 border p-5 bg-light shadow">
+                        <div class="mb-3 col-md-12">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" maxlength="30" required>
+                        </div>
+    
+                        <div class="mb-3 col-md-12">
+                            <label for="nombre">contraseña</label>
+                            <input type="password" class="form-control" name="nombre" id="nombre" maxlength="20">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="submit" value="Iniciar Sesion" class="btn btn-outline-success" style="background-color: #67cb57; border-radius: 5rem; padding:.9rem 3.5rem;">
+                        </div>
+                    
+                    </form>
+                    <p class="text-center mt-3"><a href="registro.html">Registrarse</a></p>
+            </div>
+
+        </div>
+    </section>
+</div>
+
+<!---------------------GENERADOR-------------------------->
+<div class="gen-div">
+    <section>
+        <div class="btn-cerrar-popup" id="cerrar-popup"><button>X</button></div>
+        <!--<div id="cerrar"><span><a class="fas fa fa-close"></a></span></div>-->
+        <h3 class="titulo-gen">Generar</h3>
+        <P>Si te sientes indeciso presiona este boton que te recomendara una planta segun el clima</P>
+        <div class="row">      
+            </div class="col-md-6 offset-md-6">
+                <div class="tiempo">
+                    <div class="recomendar-container">
+                        <button id="solicitarclima">Recomendar</button>
+                    </div>
+                    <table class="table" id="tabla">
+                        <thead>
+        
+                        <tr>
+                            <th scope="col">Pais</th>
+                            <th scope="col">Comuna</th>
+                            <th scope="col">temperatura mínima</th>
+                            <th scope="col">temperatura máxima</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+
+        </div>
+    </section>
+</div>
+
+    <section class="icono-container">
+        
+        <div class="iconos">
+            <img src="assets/images/icon-1.png" alt="">
+            <div class="info">
+                <h3>Delivery gratis</h3>
+                <span>En compras superiores a $30.000</span>
+            </div>
+        </div>
+
+        <div class="iconos">
+            <img src="assets/images/icon-3.png" alt="">
+            <div class="info">
+                <h3>Gift Card Regalo</h3>
+                <span>Un regalo con amor del tamaño que quieras ♥ </span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="iconos">
+            <img src="assets/images/icon-4.png" alt="">
+            <div class="info">
+                <h3>Subscripción</h3>
+                <span>5% de descuento en todos los productos</span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!--PRODUCTOS-->
+    <section class="productos" id="producto">
+
+        <div class="box-container">
+  
+            <div class="box">
+                <span class="descuento">-5%</span>
+                <div class="image">
+                    <img src= "https://sodimac.scene7.com/is/image/SodimacCL/772542_01?fmt=jpg&fit=fit,1&wid=420&hei=420" style="width: 320px; height: 350px;" alt="">                        <div class="iconos">
+                        <a href="#" class="fa fa-cart-plus"></a>
+                        <a href="#" class="fas fa fa-share"></a>
+                    </div>
+                </div>
+    
+                <div class="contenido">
+                    <h3>Tierra Para Macetas</h3>
+                    <div class="precio">$45.000 <span>60.000</span></div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <span class="descuento">-10%</span>
+                <div class="image">
+                    <img src="https://sodimac.scene7.com/is/image/SodimacCL/3363686_01?fmt=jpg&fit=fit,1&wid=420&hei=420" style="width: 350px; height: 350px;" alt="">
+                    <div class="iconos">
+                        <a href="#" class="fa fa-cart-plus"></a>
+                        <a href="#" class="fas fa fa-share"></a>
+                    </div>
+               </div>
+    
+                <div class="contenido">
+                    <h3>Tierra De Hojas</h3>
+                    <div class="precio">$55.500 <span>$65.000</span></div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <span class="descuento">-5%</span>
+                <div class="image">
+                    <img src="https://sodimac.scene7.com/is/image/SodimacCL/839302?fmt=jpg&fit=fit,1&wid=420&hei=420" style="width: 320px; height: 350px;" alt="">
+                    <div class="iconos">
+                        <a href="#" class="fa fa-cart-plus"></a>
+                        <a href="#" class="fas fa fa-share"></a>
+                    </div>
+                </div>
+    
+                <div class="contenido">
+                    <h3>Tierra Con Abono</h3>
+                    <div class="precio">$38.500 <span>$45.000</span></div>
+                    </div>
+            </div>
+    
+            <div class="box">
+                <span class="descuento">-5%</span>
+                <div class="image">
+                    <img src="	https://sodimac.scene7.com/is/image/SodimacCL/22357?fmt=jpg&fit=fit,1&wid=420&hei=420" style="width: 320px; height: 350px;" alt="">
+                    <div class="iconos">
+                        <a href="#" class="fa fa-cart-plus"></a>
+                        <a href="#" class="fas fa fa-share"></a>
+                    </div>
+                </div>
+    
+                <div class="contenido">
+                    <h3>Tierra De Hoja Gaspar</h3>
+                    <div class="precio">$12.500 <span>$15.000</span></div>
+                </div>
+            </div>
+    
+            
+            <div class="box">
+                <span class="descuento">-5%</span>
+                <div class="image">
+                    <img src="https://sodimac.scene7.com/is/image/SodimacCL/732958?fmt=jpg&fit=fit,1&wid=420&hei=420" style="width: 320px; height: 350px;" alt="">
+                    <div class="iconos">
+                        <a href="#" class="fa fa-cart-plus"></a>
+                        <a href="#" class="fas fa fa-share"></a>
+                    </div>
+                </div>
+    
+                <div class="contenido">
+                    <h3>Sulfato De Fierro</h3>
+                    <div class="precio">$12.500 <span>$15.000</span></div>
+                </div>
+            </div>
+    
+                
+            <div class="box">
+                <span class="descuento">-15%</span>
+                <div class="image">
+                    <img src="https://sodimac.scene7.com/is/image/SodimacCL/609922X?fmt=jpg&fit=fit,1&wid=420&hei=420" style="width: 300px; height: 350px;" alt="">
+                    <div class="iconos">
+                        <a href="#" class="fa fa-cart-plus"></a>
+                        <a href="#" class="fas fa fa-share"></a>
+                    </div>
+                </div>
+    
+                <div class="contenido">
+                    <h3>Tierra Compost</h3>
+                    <div class="precio">$12.500 <span>$15.000</span></div>
+                </div>
+            </div>
+        </div>
+                
+    </section>
+        
+        <!------------------------------------CONTACTO------------------------------------------------------>
+    <section class="contacto">
+        <h1 class="encabezado"> <span> contacta</span>nos</h1>
+
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="nombre" class="box">
+                <input type="text" placeholder="email" class="box">
+                <input type="text" placeholder="numero" class="box">
+                <textarea name="" class="box" placeholder="mensaje" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="enviar mensaje" class="btn">
+            </form>
+            <div class="image">
+                <img src="assets/images/aaa.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+        <!------------------------------------FOOTER------------------------------------------------------>
+        <section class="footer">
+            <div class="box-container">
+    
+                <div class="box">
+                    <h3>Sobre Nosotros</h3>
+                    <p>
+                        Somos una empresa dedicada a proveer los mejores
+                        productos para la decoraciones o cuidado de tus plantas. 
+    
+                    </p>
+                </div>
+    
+                <div class="box">
+                    <h3>links extras</h3>
+                    <a href="#">Mi Cuenta</a>
+                    <a href="#">Mis ordenes</a>
+                </div>
+    
+                <div class="box">
+                    
+                </div>
+    
+    
+                <div class="box">
+                    <h3>Información de contacto</h3>
+                    <a href="#">+569111222333</a>
+                    <a href="#">Blackclover@gmail.com</a>
+                    <img src="assets/images/payment.png" alt="">
+                    <a href="https://www.instagram.com/" class="social"><i class="ri-instagram-line"></i></a>
+                    <a href="https://www.twitter.com/" class="social"><i class="ri-twitter-line"></i></a>
+                    <a href="https://www.facebook.com/" class="social"><i class="ri-facebook-fill"></i></a>
+                </div>
+    
+            </div>
+    
+            <div class="derechos">
+                Todos los derechos reservado a <span>Black Clover SPA.</span>
+            </div>
+        </SEction>
+        
+    <!-- SCRIPT JQUERY, JAVASCRIPT  -->
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/apiclima.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdeli
+  
+</body>
+</html>
